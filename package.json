@@ -1,0 +1,22 @@
+{
+  "name": "@cole-framework/cole-cli-core",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "repository": "git@github.com:cole-framework/cole-cli-core.git",
+  "author": "rkamysz <radoslaw.kamysz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cole-framework/cole-cli-core/issues"
+  },
+  "homepage": "https://github.com/cole-framework/cole-cli-core#readme",
+  "scripts": {
+    "clean": "rm -rf ./build",
+    "build": "yarn clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "typescript": "^4.5.4"
+  }
+}
