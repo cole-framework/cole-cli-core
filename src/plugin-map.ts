@@ -1,3 +1,9 @@
+export type LanguageDI = {
+  name: string;
+  alias: string;
+  packages?: string[];
+};
+
 export type LanguagePluginMapItem = {
   name: string;
   alias: string;
@@ -5,6 +11,7 @@ export type LanguagePluginMapItem = {
   packages?: string[];
   cli_plugin?: string;
   cli_plugin_config_url?: string;
+  dependency_injection: LanguageDI[];
 };
 
 export type DatabasePluginMapItem = {
